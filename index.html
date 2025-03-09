@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách file</title>
+    <title>Danh sách tài liệu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h2>Danh sách file đã tải lên</h2>
-    <ul>
-        <li><a href="2.San_pham_tin_dung.pdf">Sản phẩm tín dụng</a></li>
-        <li><a href="6.Danh_muc.pdf">Danh mục hồ sơ</a></li>
-        <li><a href="https://rawcdn.githack.com/tienthanh1235/anhnddesign.github.io/main/Scorm/index.html" target="_blank">Khóa học SCORM 7 pattern</a></li>
-    </ul>
+<body class="bg-gray-100 text-gray-900">
+    <div class="max-w-2xl mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-6 text-center">Danh sách file đã tải lên</h1>
+        <ul class="bg-white shadow-lg rounded-lg p-4">
+            <li class="border-b py-2"><a href="san-pham-tin-dung.pdf" class="text-blue-600 hover:underline">📄 Sản phẩm tín dụng</a></li>
+            <li class="border-b py-2"><a href="danh-muc-ho-so.pdf" class="text-blue-600 hover:underline">📂 Danh mục hồ sơ</a></li>
+            <li class="py-2"><a href="https://rawcdn.githack.com/tienthanh1235/anhnddesign.github.io/main/Scorm/index.html" class="text-blue-600 hover:underline">🎓 Khóa học SCORM 7 pattern</a></li>
+        </ul>
+    </div>
 </body>
 </html>
